@@ -13,7 +13,7 @@ clarifai_api = ClarifaiApi(clientid,clientsecret) # assumes environment variable
 app= Flask(__name__)
 
 # This is the path to the upload directory where images would be saved.
-app.config['UPLOAD_FOLDER'] = 'Templates/'
+app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 
 app.config['ALLOWED_EXTENSIONS'] = set(['png', 'jpg', 'jpeg', 'gif'])
