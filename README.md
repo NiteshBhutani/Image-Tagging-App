@@ -1,1 +1,1 @@
-Converting Images Into Tags using Clariai.
+Converting Images Into Tags using Clarifai.
